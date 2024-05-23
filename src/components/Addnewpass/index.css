@@ -1,0 +1,260 @@
+.card1 {
+  background-color: #5763a5;
+}
+.innercard {
+  background-color: #454f84;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.web {
+  background-color: #f8fafc;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+.head {
+  color: #ffffff;
+}
+.but {
+  background-color: #0b69ff;
+  color: #ffffff;
+  align-self: flex-end;
+}
+@media screen and (max-width: 575px) {
+  .image {
+    order: 0;
+  }
+  .inputs {
+    margin-bottom: 10px;
+  }
+  .but {
+    width: 60px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    height: 30px;
+  }
+  .web {
+    height: 30px;
+    width: 30px;
+  }
+  .inp {
+    height: 30px;
+    width: 180px;
+  }
+  .head {
+    font-size: 15px;
+  }
+  .card1 {
+    margin-top: 20px;
+    height: 120vh;
+    padding-top: 20px;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .innercard {
+    padding: 6px;
+    height: 45vh;
+    width: 70vw;
+    order: 1;
+  }
+  .img1 {
+    height: 50vh;
+    width: 70vw;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .image {
+    order: 0;
+  }
+  .inputs {
+    margin-bottom: 10px;
+  }
+  .but {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .web {
+    height: 60px;
+    width: 80px;
+  }
+  .inp {
+    height: 60px;
+    width: 330px;
+    font-size: 25px;
+  }
+  .head {
+    font-size: 25px;
+  }
+  .card1 {
+    margin-top: 20px;
+    height: 110vh;
+    padding-top: 20px;
+    width: 90vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .innercard {
+    padding-left: 20px;
+    height: 45vh;
+    width: 80vw;
+    order: 1;
+  }
+  .img1 {
+    height: 50vh;
+    width: 70vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .image {
+    order: 1;
+  }
+  .inputs {
+    margin-bottom: 10px;
+  }
+  .but {
+    width: 60px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    height: 30px;
+  }
+  .web {
+    height: 30px;
+    width: 30px;
+  }
+  .inp {
+    height: 30px;
+    width: 180px;
+  }
+  .head {
+    font-size: 15px;
+  }
+  .card1 {
+    margin-top: 20px;
+    height: 40vh;
+    width: 93vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .innercard {
+    padding: 6px;
+    height: 25vh;
+    width: 30vw;
+    order: 0;
+  }
+  .img1 {
+    height: 30vh;
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .image {
+    order: 1;
+  }
+  .inputs {
+    margin-bottom: 10px;
+  }
+  .but {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    height: 50px;
+  }
+  .web {
+    height: 50px;
+    width: 40px;
+  }
+  .inp {
+    height: 50px;
+    width: 230px;
+  }
+  .head {
+    font-size: 20px;
+  }
+  .card1 {
+    margin-top: 20px;
+    height: 40vh;
+    width: 93vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .innercard {
+    padding: 10px;
+    height: 25vh;
+    width: 30vw;
+    order: 0;
+  }
+  .img1 {
+    height: 30vh;
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .image {
+    order: 1;
+  }
+  .inputs {
+    margin-bottom: 30px;
+  }
+  .but {
+    width: 100px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    height: 100px;
+    font-size: 29px;
+  }
+  .web {
+    height: 80px;
+    width: 50px;
+  }
+  .inp {
+    height: 80px;
+    width: 270px;
+    font-size: 30px;
+  }
+  .head {
+    font-size: 30px;
+  }
+  .card1 {
+    margin-top: 20px;
+    height: 60vh;
+    width: 93vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-between;
+  }
+  .innercard {
+    padding: 10px;
+    height: 50vh;
+    width: 30vw;
+    order: 0;
+  }
+  .img1 {
+    height: 50vh;
+    width: 60vw;
+  }
+}

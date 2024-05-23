@@ -1,0 +1,214 @@
+.card2 {
+  background-color: #5763a5;
+}
+.line {
+  background-color: #c3caea;
+}
+.yourPasswords {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  background-color: #ffffff;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.Passcount {
+  color: #ffffff;
+  border: solid 1px #9ba9eb;
+  border-radius: 10px;
+  text-align: center;
+}
+.search_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showPass {
+  color: #ffffff;
+  text-align: center;
+}
+.Show {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 575px) {
+  .box {
+    height: 20px;
+    width: 30px;
+    text-align: center;
+  }
+
+  .search {
+    height: 4vh;
+    width: 7vw;
+  }
+  .bar {
+    height: 4vh;
+    width: 89px;
+  }
+  .Passcount {
+    width: 35px;
+    height: 30px;
+    margin-left: 4px;
+  }
+  .card2 {
+    height: 80vh;
+    width: 85vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .para {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .box {
+    height: 35px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .search {
+    height: 7vh;
+    width: 10vw;
+  }
+  .bar {
+    height: 7vh;
+    width: 200px;
+  }
+  .Passcount {
+    width: 40px;
+    height: 35px;
+    margin-left: 9px;
+  }
+  .card2 {
+    height: 80vh;
+    width: 90vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .para {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .box {
+    height: 35px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .search {
+    height: 6vh;
+    width: 10vw;
+  }
+  .bar {
+    height: 6vh;
+    font-size: 30px;
+    width: 250px;
+  }
+  .Passcount {
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    margin-left: 9px;
+  }
+  .card2 {
+    height: 80vh;
+    width: 93vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .para {
+    font-size: 30px;
+  }
+  .showPass {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .box {
+    height: 35px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .search {
+    height: 6vh;
+    width: 10vw;
+  }
+  .bar {
+    height: 6vh;
+    font-size: 35px;
+    width: 300px;
+  }
+  .Passcount {
+    width: 50px;
+    height: 40px;
+    font-size: 35px;
+    margin-left: 9px;
+  }
+  .card2 {
+    height: 80vh;
+    width: 93vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .para {
+    font-size: 35px;
+  }
+  .showPass {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .box {
+    height: 35px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .search {
+    height: 6vh;
+    width: 10vw;
+  }
+  .bar {
+    height: 6vh;
+    font-size: 35px;
+    width: 300px;
+  }
+  .Passcount {
+    width: 50px;
+    height: 40px;
+    font-size: 35px;
+    margin-left: 9px;
+  }
+  .card2 {
+    height: 80vh;
+    width: 93vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .para {
+    font-size: 35px;
+  }
+  .showPass {
+    font-size: 35px;
+  }
+}
